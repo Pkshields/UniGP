@@ -7,9 +7,8 @@
 
 [node name="BasicFloor" parent="." instance=ExtResource( 2 )]
 
-[node name="Camera2D" type="Camera2D" parent="."]
-offset = Vector2( -50, -50 )
-current = true
-
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 0, -100 )
+position = Vector2( 0, -200 )
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+current = true
