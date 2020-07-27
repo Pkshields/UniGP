@@ -8,7 +8,8 @@
             "name": "Play in Editor",
             "type": "godot-mono",
             "mode": "playInEditor",
-            "request": "launch"
+            "request": "launch",
+            "preLaunchTask": "Build Scripts"
         },
         {
             "name": "Launch (macOS)",
@@ -20,6 +21,7 @@
                 "--path",
                 "${workspaceRoot}"
             ],
+            "preLaunchTask": "Build Scripts"
         },
         {
             "name": "Attach",
